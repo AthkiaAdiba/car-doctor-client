@@ -20,7 +20,7 @@ const Login = () => {
         // login user
         signIn(email, password)
             .then(result => {
-                const loggedInUser = result.user;
+                // const loggedInUser = result.user;
                 console.log(result.user)
                 const user = { email }
 
